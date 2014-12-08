@@ -12,6 +12,7 @@ use Strategy\AbstractAnimal;
 
 use Strategy\Foods\Fish;
 use Strategy\Foods\Meat;
+use Strategy\Toys\Ball;
 
 
 class Cat extends AbstractAnimal {
@@ -22,8 +23,7 @@ class Cat extends AbstractAnimal {
         $this->foods['meat'] = new Meat();
         $this->foods['fish'] = new Fish();
 
-        $this->foods['catch_ball'] = new Meat();
-        $this->foods['ball'] = new Fish();
+        $this->toys['ball'] = new Ball();
     }
 
     public function eat($foodName)

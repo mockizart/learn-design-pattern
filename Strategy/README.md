@@ -15,17 +15,19 @@ it's only need 3 criteria that you have to do:
 2. **encapsulates each algorithm.**
 
     ```
-    public function __construct()
+        public function __construct()
         {
             $this->foods['meat'] = new Meat();
             $this->foods['fish'] = new Fish();
 
-            $this->foods['catch_ball'] = new Meat();
-            $this->foods['ball'] = new Fish();
+            $this->toys['ball'] = new Ball();
         }
     ```
 
-    The encapsulation means only like this codes `$this->foods['meat'] = new Meat()` so **You dont need to write the code like above**
+    #####Note:
+
+    - The encapsulation is not more than like this code `$this->foods['meat'] = new Meat()`
+    - **You dont need to write the code like above and you can use setter and getter too**
 
     [What is encapsulation ?](http://stackoverflow.com/questions/985298/what-is-encapsulation-with-simple-example-in-php)
 
