@@ -11,12 +11,20 @@ namespace Strategy;
 
 abstract class AbstractAnimal {
 
-    abstract public function eat();
+    protected $foods;
 
-    abstract public function drink();
+    protected $toys;
 
-    abstract public function play();
+    abstract public function eat($foodName);
 
-    abstract public function sleep();
+    abstract public function play($toyName);
+
+    abstract public function animalName();
+
+    public function sleep()
+    {
+        echo '<br />';
+        echo 'zzZZZz...zzzZZZ...';
+    }
 
 } 
