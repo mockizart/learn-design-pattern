@@ -13,12 +13,12 @@ class Fish implements FoodInterface {
 
     public function name()
     {
-        echo 'Fish';
+        return 'Fish';
     }
 
     public function display()
     {
-        echo 'I am eating '.$this->name();
+        return 'I am eating '.$this->name();
     }
 
 } 

@@ -6,10 +6,10 @@
  * Time: 7:42 AM
  */
 
-namespace Strategy\Toys;
+namespace Strategy\Drinks;
 
 
-interface ToyInterface {
+interface DrinkInterface {
 
     public function name();
     public function display();

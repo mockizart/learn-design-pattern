@@ -6,9 +6,10 @@
  * Time: 5:50 AM
  */
 
+use Strategy\GuestController;
 use Strategy\TamagotchiController;
 
 ini_set('display_errors',1);
 include_once '../autoload.php';
 
-$a = new TamagotchiController();
+$a = new GuestController();

@@ -6,19 +6,19 @@
  * Time: 7:43 AM
  */
 
-namespace Strategy\Toys;
+namespace Strategy\Drinks;
 
 
-class Ball implements ToyInterface {
+class Milk implements DrinkInterface {
 
     public function name()
     {
-        echo 'Ball';
+        return 'Milk';
     }
 
     public function display()
     {
-        echo 'I am playing '.$this->name();
+        return 'I am drinking '.$this->name();
     }
 
 } 

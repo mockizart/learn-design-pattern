@@ -6,19 +6,19 @@
  * Time: 7:43 AM
  */
 
-namespace Strategy\Toys;
+namespace Strategy\Drinks;
 
 
-class CatchBall implements ToyInterface {
+class Coke implements DrinkInterface {
 
     public function name()
     {
-        echo 'Catch Ball';
+        return 'Coke';
     }
 
     public function display()
     {
-        echo 'I am playing '.$this->name();
+        return 'I am drinking '.$this->name();
     }
 
 } 

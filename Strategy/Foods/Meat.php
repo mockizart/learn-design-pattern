@@ -18,7 +18,7 @@ class Meat implements FoodInterface {
 
     public function display()
     {
-        echo 'I am eating '.$this->name();
+        return 'I am eating '.$this->name();
     }
 
 } 
