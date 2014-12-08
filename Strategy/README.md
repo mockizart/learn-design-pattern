@@ -42,7 +42,7 @@ and the `(2) guest has option` to change her "food" and her "drinks".
 
 - The encapsulation is not more than like this code `$this->food = new Meat()`
 
-[What is encapsulation ?](http://stackoverflow.com/questions/985298/what-is-encapsulation-with-simple-example-in-php)
+- [What is encapsulation ?](http://stackoverflow.com/questions/985298/what-is-encapsulation-with-simple-example-in-php)
 
 
 
