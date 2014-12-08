@@ -7,19 +7,19 @@ Strategy
 
 Two programmers planning their wedding party.
 
-- The bride: Hey babe, I'm confused how we serve the foods to guests in our wedding party next month.
+- **The bride:** Hey babe, I'm confused how we serve the foods to guests in our wedding party next month.
 I'm thinking about what if we package the foods. so the guest just take and ready to eat it.
 
-- The groom: How about if the guest don't like with one of the foods or maybe allergy with that.
+- **The groom:** How about if the guest don't like with one of the foods or maybe allergy with that.
 
-- The bridge: ahh, you are right! so do you have another option?
+- **The bridge:** ahh, you are right! so do you have another option?
 
-- The groom: well, don't worry. you already know about strategy design pattern, don't you ? So we have to `(1) separate and define` them
+- **The groom:** well, don't worry. you already know about strategy design pattern, don't you ? So we have to `(1) separate and define` them
 into two families "Foods" and "Drinks". We put the foods family here and the drinks family here.
 
-- The bridge: I bit forget about strategy, why do you want to separate them?
+- **The bridge:** I bit forget about strategy, why do you want to separate them?
 
-- The groom: we provide strategy, so the `(3) "family foods" and "family drink" are interchangeable`.
+- **The groom:** we provide strategy, so the `(3) "family foods" and "family drink" are interchangeable`.
 and the `(2) guest has option` to change her "food" and her "drinks".
 
 
