@@ -32,19 +32,15 @@ Strategy
 (2). **encapsulates each algorithm.**
 
     ```
-        public function __construct()
-        {
-            $this->foods['meat'] = new Meat();
-            $this->foods['fish'] = new Fish();
-
-            $this->toys['ball'] = new Ball();
-        }
+     public function setFood(FoodInterface $food)
+         {
+             $this->food = $food;
+         }
     ```
 
     #####Note:
 
-    - The encapsulation is not more than like this code `$this->foods['meat'] = new Meat()`
-    - **You dont need to write the code like above and you can use setter and getter too**
+    - The encapsulation is not more than like this code `$this->food = new Meat()`
 
     [What is encapsulation ?](http://stackoverflow.com/questions/985298/what-is-encapsulation-with-simple-example-in-php)
 
