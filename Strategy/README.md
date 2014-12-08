@@ -1,7 +1,7 @@
 Strategy
 ====================
 
-##What is the meaning of strategy design pattern ?
+##What the meaning of strategy design pattern ?
 
 ###Problem:
 
