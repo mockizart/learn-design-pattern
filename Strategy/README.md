@@ -24,9 +24,11 @@ Strategy
 
 
 
-3 criteria of strategy patter:
+3 criteria of strategy pattern:
 
 (1). **defines a family of algorithms.**
+
+
 (2). **encapsulates each algorithm.**
 
     ```
@@ -45,6 +47,8 @@ Strategy
     - **You dont need to write the code like above and you can use setter and getter too**
 
     [What is encapsulation ?](http://stackoverflow.com/questions/985298/what-is-encapsulation-with-simple-example-in-php)
+
+
 
 (3). **makes the algorithms interchangeable within that family.**
 
