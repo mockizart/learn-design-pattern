@@ -1,7 +1,6 @@
 Observer
 ====================
 
-
 `Meanwhile after they are getting married`
 
 
@@ -37,5 +36,12 @@ Observer
 **Husband:** Yes I have, it's about 3 things right ? `Subject`, `notification` and `observers`.
 
 **Wife:** Correct!! the subject is `Announcer`, notiffication is the `announcement` and the Observers are `The Departments`.
+
+
+in a nutshell:
+
+> Observer defines about one-to-many
+> dependency between objects
+
 
 ![strategy diagram](diagram.png?raw=true "strategy diagram")
