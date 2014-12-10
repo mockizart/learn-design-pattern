@@ -11,7 +11,7 @@ Observer
 
 **Wife:** hmmm.. so? it's easy, isn't it? just fetch data from database and send them all.
 
-**Husband:** not as simple as that babe, here the task job:
+**Husband:** not as simple as that babe, here is the task description:
 
  1. The program should be able to add new department or remove them from the subscriber list.
  2. Each department has different behaviours "after" or "before" the announcement sent or delivered.
