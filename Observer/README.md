@@ -31,3 +31,5 @@ Wife: You already heard about observer pattern, don't you?
 Husband: Yes I have, it's about 2 things right ? 1. Subject 2. observers.
 
 Wife: Correct!! the subject is "Announcements" and the Observers are "The Departments".
+
+![strategy diagram](diagram.png?raw=true "strategy diagram")
