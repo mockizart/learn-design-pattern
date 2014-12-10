@@ -7,7 +7,7 @@ Observer
 
 **Wife:** What's wrong honey, you looks like very confused these days.
 
-**Husband:** My office want me to build a program about broadcasting announcements system to some departments every time there is a new announcement.
+**Husband:** My office ask me to build a program about broadcasting announcements system to some departments every time there is a new announcement.
 
 **Wife:** hmmm.. so? it's easy, isn't it? just fetch data from database and send them all.
 
@@ -15,11 +15,13 @@ Observer
 
  1. The program should be able to add new department or remove them from the subscriber list.
  2. Each department has different behaviours "after" or "before" the announcement sent or delivered.
-    - "A" Department
+
+    - **"A" Department**
         - should be able to generate report and then send them through email to different bosses.
         - only want to get announcement updates with topic "Marketing" only.
         - and should be able to add or change the behaviours.
-    - "B" Department
+
+    - **"B" Department**
         - only want to get announcement updates with topic "Recruitment" only.
         - and it could add more or change the behaviours.
         - update some data in Database.
